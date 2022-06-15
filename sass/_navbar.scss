@@ -1,0 +1,66 @@
+.navigatin {
+
+    height: 7rem;
+    z-index: 100000;
+
+    position: sticky;
+    top: 0; left: 0;
+    background-color: #fff;
+    border-bottom: 2px solid $color-gray-dark;
+    
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        // @include respond(phone) {
+        //     position: fixed;
+        //     top: 0; left: 0;
+        // }
+
+    }
+
+    &__nav {
+        transform: translateY(.4rem);
+    }
+
+    &__logo {
+        max-height: 3rem;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__item {
+        margin-left: 2rem;
+
+    }
+
+    &__link {
+
+        &,
+        &:visited,
+        &:checked {
+            text-decoration: none;
+            color: $secondary-color;
+            font-size: 1.7rem;
+            transition: all .2s;
+        }
+
+        &:hover {
+            color: $primary-color;
+        }
+
+        @include respond(phone) {
+            position: relative;
+            top: -100rem;
+            display: none;
+        }
+    }
+}

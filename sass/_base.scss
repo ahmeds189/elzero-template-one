@@ -1,0 +1,54 @@
+/////////////
+/// variables
+
+$primary-color: #10cab7;
+$secondary-color: #2c4755;
+
+$color-gray-light: #f6f6f6;
+$color-gray-dark: #ebeced;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  margin-left: auto; margin-right: auto;
+  width: 80vw;
+  padding: 2rem 1.5rem;
+}
+
+.arrow {
+  position: fixed;
+  right: 0rem; bottom: 3rem;
+  font-size: 3rem;
+  background-color: $primary-color;
+  width: 4rem;
+  text-align: center;
+
+  &__icon {
+    &:visited,
+    &:link {
+      color: $secondary-color;
+    }
+
+    i {
+      margin-top: 1rem;
+    }
+  }
+}
