@@ -72,7 +72,7 @@ body {
       display: none; } }
 
 .heroSection {
-  background: linear-gradient(0deg, rgba(34, 193, 195, 0.171306) 0%, rgba(0, 0, 0, 0.370186) 100%), url(/img/bg.jpg) no-repeat center center/cover;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 0.171306) 0%, rgba(0, 0, 0, 0.370186) 100%), url(img/bg.jpg) no-repeat center center/cover;
   height: calc(100vh - 7rem); }
   .heroSection .hero-text {
     position: absolute;
