@@ -25,14 +25,29 @@ body {
   position: fixed;
   right: 0rem;
   bottom: 3rem;
-  font-size: 3rem;
   background-color: #10cab7;
-  width: 4rem;
-  text-align: center; }
+  width: 4.5rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .arrow__icon:visited, .arrow__icon:link {
-    color: #2c4755; }
-  .arrow__icon i {
-    margin-top: 1rem; }
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 0.7rem; }
+
+::-webkit-scrollbar {
+  width: .8rem; }
+
+::-webkit-scrollbar-track {
+  background-color: #ebeced; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 202, 183, 0.5);
+  border-radius: 8px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #10cab7; }
 
 .navigatin {
   height: 7rem;
